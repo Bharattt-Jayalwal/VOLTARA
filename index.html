@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#080b0a" />
+    <meta name="description" content="Open your existing VOLTARA EV charging marketplace app." />
+    <title>VOLTARA — Open the app</title>
+    <style>
+      :root{color-scheme:dark;--bg:#080b0a;--panel:#111713;--line:rgba(240,248,241,.12);--lime:#b8ff3b;--text:#f4f7f3;--muted:#929d95}
+      *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 78% 20%,rgba(57,229,140,.09),transparent 35%),var(--bg);color:var(--text);font:14px/1.6 Inter,Manrope,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;display:grid;place-items:center;padding:24px}
+      main{width:min(680px,100%);border:1px solid var(--line);border-radius:14px;background:linear-gradient(145deg,rgba(21,28,23,.98),rgba(13,18,15,.98));padding:clamp(26px,7vw,58px);box-shadow:0 28px 90px #0008}
+      .brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.16em}.mark{width:34px;height:34px;border-radius:10px;background:var(--lime);color:#10150c;display:grid;place-items:center;font-size:18px}.eyebrow{margin:34px 0 10px;color:#aab6ac;font-size:10px;font-weight:700;letter-spacing:.18em}.eyebrow:before{content:"";display:inline-block;width:22px;height:1px;background:var(--lime);vertical-align:middle;margin-right:10px}
+      h1{margin:0;max-width:530px;font-size:clamp(38px,8vw,65px);line-height:1.03;font-weight:500;letter-spacing:-.06em}h1 span{color:var(--lime)}p{max-width:500px;color:var(--muted);margin:18px 0 26px}.actions{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 17px;border-radius:7px;background:var(--lime);color:#10150c;text-decoration:none;font-weight:750;font-size:12px}.button:hover{background:#c9ff68}.hint{margin-top:26px;padding-top:17px;border-top:1px solid var(--line);font-size:11px;color:#849087}.hint strong{color:#c4cec5}.status{margin-top:14px;font-size:10px;color:#8c998f}
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="brand"><span class="mark">ϟ</span><span>VOLTARA</span></div>
+      <div class="eyebrow">YOUR EXISTING MARKETPLACE APP</div>
+      <h1>Charging should<br />never be a <span>guess.</span></h1>
+      <p>Open the hosted preview right away, or start the included local app with one double-click.</p>
+      <div class="actions"><a class="button" href="https://voltara-preview-upload.vercel.app/">Open VOLTARA preview</a><a class="button" style="background:#202a22;color:#edf4ed;border:1px solid var(--line)" href="http://localhost:3000/">Open local app</a></div>
+      <div class="hint"><strong>For the local app:</strong> first double-click <strong>Start VOLTARA.cmd</strong> in this folder. It starts the app server and opens the local app when ready. If the local link says to refresh, the server has not started yet.</div>
+      <div class="status">Hosted preview: voltara-preview-upload.vercel.app · Local app: http://localhost:3000</div>
+    </main>
+  </body>
+</html>
